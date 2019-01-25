@@ -3,6 +3,16 @@ node {
         currentBuild.displayName = "Build_" + "${BUILD_TIMESTAMP}"
         git 'git@github.com:Javier-Caballero-Info/personal_page_admin_crud_nodejs.git'
     }
+    stage('Installing dependencies'){
+        nodejs('Node10.15.0') {
+            sh 'npm install'
+        }
+    }
+    stage('Npm Build'){
+        nodejs('Node10.15.0') {
+            sh 'npm run build'
+        }
+    }
     stage('Docker build'){
         sh '/usr/local/bin/docker build -t javiercaballeroinfo/personal_page_admin_crud_nodejs:$Docker_Tag .'
     }
