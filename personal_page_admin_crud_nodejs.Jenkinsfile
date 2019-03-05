@@ -21,6 +21,6 @@ node {
         sh '/usr/local/bin/docker push javiercaballeroinfo/personal_page_admin_crud_nodejs:$Docker_Tag'
     }
     stage('Update Deployer Manager'){
-        httpRequest acceptType: 'APPLICATION_JSON', contentType: 'APPLICATION_JSON', httpMode: 'PUT', responseHandle: 'NONE', url: 'http://deployer.javiercaballero.info/api/v1/app_versions?app_id=5b843fbb71531a000612d166', validResponseCodes: '202'
+        httpRequest acceptType: 'APPLICATION_JSON', contentType: 'APPLICATION_JSON', customHeaders: [[maskValue: false, name: 'Authorization', value: 'Basic Y2FiYWxsZXJvamF2aWVyMTNAZ21haWwuY29tMjozNjQxNjk5OQ==']], httpMode: 'PUT', responseHandle: 'NONE', url: 'http://deployer.javiercaballero.info/api/v1/app_versions?app_id=5b843fbb71531a000612d166', validResponseCodes: '202'
     }
 }
