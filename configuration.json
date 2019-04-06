@@ -1,0 +1,213 @@
+{
+  "plugins": [
+    "jsch",
+    "ws-cleanup",
+    "blueocean-commons",
+    "mercurial",
+    "structs",
+    "jira",
+    "sse-gateway",
+    "gitlab-oauth",
+    "conditional-buildstep",
+    "greenballs",
+    "apache-httpcomponents-client-4-api",
+    "subversion",
+    "pipeline-model-extensions",
+    "build-with-parameters",
+    "external-monitor-job",
+    "workflow-aggregator",
+    "mailer",
+    "git",
+    "handy-uri-templates-2-api",
+    "blueocean-jira",
+    "command-launcher",
+    "workflow-api",
+    "workflow-job",
+    "ssh-credentials",
+    "authentication-tokens",
+    "blueocean-rest-impl",
+    "github-branch-source",
+    "htmlpublisher",
+    "simple-theme-plugin",
+    "javadoc",
+    "workflow-cps-global-lib",
+    "blueocean-web",
+    "jackson2-api",
+    "ssh-slaves",
+    "slack-uploader",
+    "docker-workflow",
+    "pipeline-stage-tags-metadata",
+    "blueocean-pipeline-scm-api",
+    "pipeline-milestone-step",
+    "credentials",
+    "blueocean-executor-info",
+    "cloudbees-bitbucket-branch-source",
+    "jquery",
+    "github",
+    "lockable-resources",
+    "oauth-credentials",
+    "jquery-detached",
+    "blueocean-personalization",
+    "workflow-scm-step",
+    "matrix-auth",
+    "matrix-project",
+    "pipeline-stage-step",
+    "pipeline-build-step",
+    "antisamy-markup-formatter",
+    "pipeline-input-step",
+    "selected-tests-executor",
+    "filesystem-list-parameter-plugin",
+    "ant",
+    "bouncycastle-api",
+    "handlebars",
+    "google-oauth-plugin",
+    "blueocean",
+    "pipeline-github-lib",
+    "variant",
+    "momentjs",
+    "blueocean-jwt",
+    "ghprb",
+    "plain-credentials",
+    "docker-commons",
+    "backup",
+    "git-client",
+    "timestamper",
+    "gradle",
+    "pipeline-rest-api",
+    "workflow-basic-steps",
+    "github-api",
+    "blueocean-i18n",
+    "ldap",
+    "blueocean-events",
+    "blueocean-core-js",
+    "maven-plugin",
+    "blueocean-config",
+    "blueocean-github-pipeline",
+    "mail-watcher-plugin",
+    "credentials-binding",
+    "pipeline-model-definition",
+    "config-file-provider",
+    "pipeline-stage-view",
+    "token-macro",
+    "http_request",
+    "ssh",
+    "slack",
+    "blueocean-display-url",
+    "workflow-multibranch",
+    "script-security",
+    "git-server",
+    "pipeline-model-declarative-agent",
+    "ssh-agent",
+    "workflow-step-api",
+    "google-storage-plugin",
+    "run-condition",
+    "icon-shim",
+    "pipeline-graph-analysis",
+    "google-metadata-plugin",
+    "blueocean-git-pipeline",
+    "build-timestamp",
+    "pipeline-model-api",
+    "jquery-ui",
+    "jenkins-design-language",
+    "windows-slaves",
+    "workflow-cps",
+    "blueocean-autofavorite",
+    "workflow-durable-task-step",
+    "email-ext",
+    "trilead-api",
+    "role-strategy",
+    "branch-api",
+    "jdk-tool",
+    "cloudbees-folder",
+    "blueocean-pipeline-editor",
+    "blueocean-dashboard",
+    "durable-task",
+    "github-oauth",
+    "junit",
+    "pam-auth",
+    "pubsub-light",
+    "scm-api",
+    "blueocean-pipeline-api-impl",
+    "ace-editor",
+    "display-url-api",
+    "workflow-support",
+    "resource-disposer",
+    "blueocean-rest",
+    "build-timeout",
+    "favorite",
+    "blueocean-bitbucket-pipeline",
+    "cors-filter",
+    "nodejs",
+    "mapdb-api",
+    "git-parameter"
+  ],
+  "folders": [
+    "Personal",
+    "Personal/Personal_Page"
+  ],
+  "jobs": [
+    {
+      "full_name": "Personal/PersonalPage/personal_page_admin_crud_nodejs",
+      "setup": {
+        "jenkinsfile": "jenkinsfile/personal_page_admin_crud_nodejs.Jenkinsfile",
+        "project_url": "https://github.com/Javier-Caballero-Info/personal_page_admin_crud_nodejs/"
+      }
+    },
+    {
+      "full_name": "Personal/PersonalPage/personal_page_authenticator_python",
+      "setup": {
+        "jenkinsfile": "jenkinsfile/personal_page_authenticator_python.Jenkinsfile",
+        "project_url": "https://github.com/Javier-Caballero-Info/personal_page_authenticator_python/"
+      }
+    },
+    {
+      "full_name": "Personal/PersonalPage/personal_page_deploy_manager_ruby",
+      "setup": {
+        "jenkinsfile": "jenkinsfile/personal_page_deploy_manager_ruby.Jenkinsfile",
+        "project_url": "https://github.com/Javier-Caballero-Info/personal_page_deploy_manager_ruby/"
+      }
+    },
+    {
+      "full_name": "Personal/PersonalPage/personal_page_front_end_vuejs",
+      "setup": {
+        "jenkinsfile": "jenkinsfile/personal_page_front_end_vuejs.Jenkinsfile",
+        "project_url": "https://github.com/Javier-Caballero-Info/personal_page_front_end_vuejs/"
+      }
+    },
+    {
+      "full_name": "Personal/PersonalPage/personal_page_nginx",
+      "setup": {
+        "jenkinsfile": "jenkinsfile/personal_page_nginx.Jenkinsfile",
+        "project_url": "https://github.com/Javier-Caballero-Info/personal_page_nginx/"
+      }
+    },
+    {
+      "full_name": "Personal/PersonalPage/personal_page_slack_notifier_python",
+      "setup": {
+        "jenkinsfile": "jenkinsfile/personal_page_slack_notifier_python.Jenkinsfile",
+        "project_url": "https://github.com/Javier-Caballero-Info/personal_page_slack_notifier_python/"
+      }
+    },
+    {
+      "full_name": "Personal/PersonalPage/personal_page_storage_golang",
+      "setup": {
+        "jenkinsfile": "jenkinsfile/personal_page_storage_golang.Jenkinsfile",
+        "project_url": "https://github.com/Javier-Caballero-Info/personal_page_storage_golang/"
+      }
+    },
+    {
+      "full_name": "Personal/PersonalPage/personal_page_web_html",
+      "setup": {
+        "jenkinsfile": "jenkinsfile/personal_page_web_html.Jenkinsfile",
+        "project_url": "https://github.com/Javier-Caballero-Info/personal_page_web_html/"
+      }
+    }
+  ],
+  "environment_vars": [
+    "ANDROID_HOME",
+    "AWS_KEY",
+    "AWS_SECRET",
+    "DOCKER_PASSWORD",
+    "DOCKER_USER"
+  ]
+}
